@@ -35,16 +35,12 @@ The implementation is intentionally simple. The point is not technical complexit
 
 The tone of the project is quiet, clear, and humane.
 
-`Nothing` does not promise enlightenment.
+`Nothing` does not promise enlightenment, and it does not try to turn stillness into a score.
 
-It does not turn silence into achievement, attention into currency, or presence into a metric.
+It does not reward performance, manufacture urgency, or wrap silence in the language of self-optimization.
 
-Its purpose is simpler:
-to offer a small, well-made pause.
-
-A place where the user is not asked to improve, perform, respond, or become anything.
-
-Only to be here, for a moment, without demand.
+Its ambition is smaller, and more honest:
+to make one digital object that asks nothing from the user except presence.
 
 ## Local preview
 
