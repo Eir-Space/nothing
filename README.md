@@ -1,6 +1,43 @@
 # Nothing by Eir Space
 
-Static GitHub Pages site for the "Doing nothing" experience from Eir Space.
+Most software is built to capture attention.
+
+This project is built to release it.
+
+`Nothing` is a small web experience about the value of deliberate non-doing: a quiet session, a breathing rhythm, a timer, and a reminder that a human being does not need to be optimized every moment of the day.
+
+In Zen, emptiness is not absence. It is space. It is the clearing in which awareness becomes possible.
+
+This repository exists in that spirit.
+
+## Why this exists
+
+People live inside systems that constantly ask for more:
+
+- more output
+- more urgency
+- more stimulation
+- more identity built around productivity
+
+`Nothing` is a counter-practice.
+
+It offers a small, calm place on the internet where the user is asked to do less, not more. The interface does not try to entertain. It does not try to persuade. It simply holds the session and lets the person return to themselves.
+
+## What this repository contains
+
+- a lightweight static site
+- a breathing-centered session experience
+- a GitHub Pages deployment for `nothing.eir.space`
+
+The implementation is intentionally simple. The point is not technical complexity. The point is to preserve stillness.
+
+## Design intention
+
+The tone of the project is quiet, clear, and humane.
+
+We are not trying to gamify enlightenment.
+We are not trying to package spirituality as growth hacking.
+We are trying to make one small digital object that respects silence.
 
 ## Local preview
 
