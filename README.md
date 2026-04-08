@@ -35,9 +35,12 @@ The implementation is intentionally simple. The point is not technical complexit
 
 The tone of the project is quiet, clear, and humane.
 
-We are not trying to gamify enlightenment.
-We are not trying to package spirituality as growth hacking.
-We are trying to make one small digital object that respects silence.
+`Nothing` does not promise enlightenment, and it does not try to turn stillness into a score.
+
+It does not reward performance, manufacture urgency, or wrap silence in the language of self-optimization.
+
+Its ambition is smaller, and more honest:
+to make one digital object that asks nothing from the user except presence.
 
 ## Local preview
 
