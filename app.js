@@ -27,6 +27,14 @@ const state = {
     timerId: 0
 };
 
+function trackEvent(name, data) {
+    if (typeof window.umami?.track !== "function") {
+        return;
+    }
+
+    window.umami.track(name, data);
+}
+
 function loadState() {
     try {
         const raw = localStorage.getItem(STORAGE_KEY);
@@ -157,6 +165,10 @@ function startSession() {
     state.elapsedSeconds = 0;
     saveState();
     startTicker();
+    trackEvent("session-start", {
+        totalSessions: state.sessionCount,
+        totalPoints: state.nothingPoints
+    });
 }
 
 function stopSession() {
@@ -178,6 +190,12 @@ function stopSession() {
     stopTicker();
     saveState();
     updateSessionUi();
+    trackEvent("session-end", {
+        durationSeconds,
+        awardedPoints,
+        totalSessions: state.sessionCount,
+        totalPoints: state.nothingPoints
+    });
 }
 
 sessionButton.addEventListener("click", () => {
